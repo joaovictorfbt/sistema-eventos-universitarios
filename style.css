@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background-color: #eee; color: #222; }
+.container { width: 90%; max-width: 1050px; margin: auto; }
+header, footer { background-color: #173b67; color: white; }
+header { padding: 18px 0; }
+header .container { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 23px; font-weight: bold; }
+nav ul { list-style: none; display: flex; gap: 12px; padding: 0; margin: 0; }
+nav a { color: white; text-decoration: none; }
+.hero, form, .schedule-wrapper, .event-card { background-color: white; }
+.hero { padding: 35px 0; }
+.hero h1, .section-title { color: #173b67; }
+section { padding: 30px 0; }
+.section-title { text-align: center; }
+.events-grid { display: flex; flex-wrap: wrap; gap: 18px; }
+.event-card { width: 31%; min-width: 280px; border: 1px solid #ccc; }
+.event-card img { width: 100%; height: auto; }
+.event-content { padding: 12px; }
+.event-content h3 { color: #173b67; }
+.category { background-color: #ddd; padding: 3px 6px; }
+.schedule-wrapper { overflow: auto; }
+table { width: 100%; min-width: 650px; border-collapse: collapse; }
+th, td { border: 1px solid #aaa; padding: 8px; text-align: left; }
+th { background-color: #173b67; color: white; }
+form { max-width: 650px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+.form-group { margin-bottom: 13px; }
+label, legend { font-weight: bold; }
+label { display: block; margin-bottom: 4px; }
+input, select { width: 100%; padding: 8px; border: 1px solid #aaa; }
+.radio-group { display: flex; gap: 12px; }
+.radio-group label, .confirmation label { display: flex; align-items: center; gap: 4px; font-weight: normal; }
+.radio-group input, .confirmation input { width: auto; }
+button { background-color: #173b67; color: white; border: 0; padding: 9px 15px; }
+footer { margin-top: 25px; padding: 16px 0; text-align: center; }
+@media (max-width: 800px) { header .container { flex-direction: column; gap: 10px; } .event-card { width: 47%; } }
+@media (max-width: 560px) { nav ul { flex-direction: column; } .event-card { width: 100%; } }
