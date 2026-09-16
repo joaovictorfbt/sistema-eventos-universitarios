@@ -15,7 +15,8 @@ Projeto de front-end desenvolvido para uma atividade de HTML e CSS.
 - `programacao.html` — tabela de programação.
 - `inscricao.html` — formulário de inscrição.
 
-## Publicação
+## Site publicado
 
-Site publicado no GitHub Pages:
-https://joaovictorfbt.github.io/sistema-eventos-universitarios/
+🌐 **https://joaovictorfbt.github.io/sistema-eventos-universitarios/**
+
+O site é publicado automaticamente pelo GitHub Pages a cada atualização na branch `main`.
