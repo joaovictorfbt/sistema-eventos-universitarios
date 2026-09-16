@@ -17,6 +17,4 @@ Projeto de front-end desenvolvido para uma atividade de HTML e CSS.
 
 ## Site publicado
 
-🌐 **https://joaovictorfbt.github.io/sistema-eventos-universitarios/**
-
-O site é publicado automaticamente pelo GitHub Pages a cada atualização na branch `main`.
+ **https://joaovictorfbt.github.io/sistema-eventos-universitarios/**
